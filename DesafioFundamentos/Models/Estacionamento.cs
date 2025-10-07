@@ -70,7 +70,7 @@ namespace DesafioFundamentos.Models
                 int contadorForeach = 0;
                 foreach (String item in veiculos)
                 {
-                    Console.WriteLine($"Carro numero: {contadorForeach} - Placa: {item}");
+                    Console.WriteLine($"Carro numero: {contadorForeach + 1} - Placa: {item}");
                     contadorForeach++;
                 }
             }
